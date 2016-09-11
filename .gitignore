@@ -1,0 +1,11 @@
+# python byte code
+*.pyc
+*.pyo
+
+# XML metadata
+*.xml
+
+# Comic Book
+*.cbz
+*.cbr
+*.cbt
