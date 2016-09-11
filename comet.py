@@ -85,7 +85,6 @@ class CoMet:
 
 
 def main():
-
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--infile", help="Input file",
         default=None, type=argparse.FileType("r"))
@@ -107,6 +106,7 @@ def main():
 
     args.outfile.write(CoMet.xml_prolog)
     args.outfile.write(comet.to_xml())
+    return 0
 
 if __name__ == '__main__':
     sys.exit(main())

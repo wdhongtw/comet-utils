@@ -9,7 +9,7 @@ that can read, write, modify metadata within comic format file.
 
 ## Features
 
-- Tool to read, write metadata file (partially done)
+- Tool to read, write metadata file (done)
 - CLI tool to read, write metadata from and to comic file (planned)
 
 ## CoMet Spec

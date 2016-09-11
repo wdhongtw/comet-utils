@@ -9,3 +9,6 @@
 *.cbz
 *.cbr
 *.cbt
+
+# Metadata sample file
+!sample.xml
